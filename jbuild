@@ -2,4 +2,4 @@
 
 (library
  ((name example)
-  (preprocess (pps (ppx_deriving ppx_compare)))))
+  (preprocess (pps (ppx_deriving.make ppx_compare)))))

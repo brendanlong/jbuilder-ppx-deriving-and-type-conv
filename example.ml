@@ -1,1 +1,3 @@
-type t = string [@@deriving compare, make]
+type t =
+  { example: string }
+[@@deriving compare, make]
