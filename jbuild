@@ -1,0 +1,5 @@
+(jbuild_version 1)
+
+(library
+ ((name example)
+  (preprocess (pps (ppx_deriving ppx_compare)))))
